@@ -1,2 +1,2 @@
-console.log("fala porra")
-console.log("alteração 2")
+console.log("This is the first app")
+console.log("Alteration")
