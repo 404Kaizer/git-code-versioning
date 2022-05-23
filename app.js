@@ -1,5 +1,10 @@
 let htmlText = document.getElementById("text")
-document.getElementById("changeTextBtn").onclick = function changeText() {
+let changeColorBtn = document.getElementById("changeTextBtn")
+
+changeColorBtn.onclick = function changeTextToGreen() {
     htmlText.style.color = "green"
-    alert("The Color of The Text Is Now Green!")
+}
+
+changeColorBtn.ondblclick = function changeTextToRed() {
+    htmlText.style.color = "red"
 }
